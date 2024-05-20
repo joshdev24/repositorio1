@@ -1,0 +1,38 @@
+header{
+
+background-color: #FEE600;
+padding: 32px;
+
+}
+header input{
+    width: 344px;
+    padding: 10px 15px;
+    background-color: aliceblue;
+    border: none;
+    font-size: 16px;
+box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+border-radius: 2px;
+}
+
+header .buscador::placeholder{
+    color: #9999;
+}
+
+.a{
+    color: black ;
+    background-color: 99999;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 700px;
+
+
+}
+a:hover {
+    background-color: aquamarine ;
+    font-size: 20px;
+    transition: 1ms ease-in-out;
+}

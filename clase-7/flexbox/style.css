@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* 
+margin: Espacio que esta del borde hacia afuera
+border: grasor tipo color
+    tipo: dotted dashed solid double inset outset
+padding: Espacio que esta del borde hacia adentro
+
+padding | margin:
+propiedad: <para todos los ejes>;
+propiedad: <eje y | vertical> <eje x | horizontal>;
+propiedad: <top> <eje x | horizontal> <bottom>;
+propiedad: <top> <eje y | vertical> <bottom> <left>;
+*/
+
+
+
+.padre{
+    background-color:green;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 50px;
+    justify-content:space-around;
+    align-items: end;
+    padding: 10px;
+
+}
+
+.hijo{
+    background-color: red;
+    width: 50%;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.hijo:nth-child(1){
+background-color: blue;
+
+
+
+}
+
