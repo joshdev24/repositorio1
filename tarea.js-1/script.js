@@ -38,7 +38,7 @@ if (nota >=0 && nota <=59){
 
 
 
-let dia = prompt ("Por favor ingrese el dia")
+let dia = Numberprompt("Por favor ingrese el dia")
 
 
 if (dia <0 || dia >7){
@@ -106,3 +106,29 @@ if (lado1 == lado2 && lado1 == lado3){
 } else {
     console.log ("Escaleno")
 }
+
+
+function DecirNombre(Nombre){
+    alert("Hola" + Nombre)
+}
+
+DecirNombre("Josh")
+
+
+function Saludar(Nombre){
+    return ("Hola"  + Nombre)
+}
+alert(Saludar(" Josh"))
+
+
+function Sumar(a,b){
+    return (a + b)
+}
+alert(Sumar (10,10))
+
+
+function Resta(a,b){
+    return(a - b)
+}
+
+alert (Resta(10,5))
