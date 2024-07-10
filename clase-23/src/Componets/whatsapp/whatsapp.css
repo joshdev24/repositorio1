@@ -59,7 +59,10 @@ body {
 .footer {
     font-size: x-small;
     color: rgb(41, 40, 40);
-    justify-content: space-between;
+}
+
+.footer span {      
+    margin-left: 5px;
 }
 
 .blue {

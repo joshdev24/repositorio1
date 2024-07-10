@@ -1,6 +1,6 @@
 import React from "react"
 import Nav from "./Componets/NavBar"
- import Chat from "./Componets/whatsapp"
+import Chat from "./Componets/whatsapp/whatsapp"
 import DATA_MOOK from "./data"
 
 

@@ -16,8 +16,8 @@ const Chat = ({ data }) => {
 
                         <div className="header">{author}</div>
                         <div className="content">{content}</div>
-                        <div className="footer">{date}</div><span className={state === "visto" && "blue"}>&#10003;&#10003;</span></div>
-   
+                        <div className="footer">{date}<span className={state === "visto" && "blue"}>&#10003;&#10003;</span></div> 
+                    </div>
                 </div>
             ))}
         </div>
