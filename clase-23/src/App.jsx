@@ -1,24 +1,19 @@
-import React from "react"
-import Nav from "./Componets/NavBar"
-import Chat from "./Componets/whatsapp/whatsapp"
-import DATA_MOOK from "./data"
-
-
-let condicion2 = true
-let estadoRegistrado = true
-const userData = {
-  logged: true,
-  isAdmin: true,
-  lang: "en"
-}
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Contacts from "./Pages/Contact/Contact";
+import Chat from "./Pages/Chat/Chat";
+import ContactInfo from "./Pages/ContactInfo/ContactInfo"; // Ensure correct import
 
 function App() {
-
   return (
-    <div>
-      <Chat data={DATA_MOOK} />
-    </div>
-  )
+    <main>
+      <Routes>
+        <Route path="/" element={<Contacts />} />
+        <Route path="/chat/:id_contacto" element={<Chat />} />
+        <Route path="/info/:id_contacto" element={<ContactInfo />} />
+      </Routes>
+    </main>
+  );
 }
 
-export default App
+export default App;

@@ -1,0 +1,126 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: monospace;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.chat {
+    border: 1px solid rgb(51, 109, 51);
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.day {
+    background-color: #182229;
+    width: max-content;
+    padding: 5px 12px 6px 12px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.day span {
+    color: #02131d;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 14px;
+    font-family : 'Lato', sans-serif;
+}
+
+.author {
+    font-weight: bold;
+    font-size: small;
+}
+.received {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+.sent {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.header {
+    font-weight: bold;
+}
+
+.footer {
+    font-size: x-small;
+    color: rgb(41, 40, 40);
+}
+
+.footer span {
+    margin-left: 5px;
+}
+
+.blue {
+    color: rgb(0, 0, 250);
+}
+
+.content {
+    margin: 5px 0;
+
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form i {
+    margin-left: 10px;
+    color: white;
+    align-content: center;
+}
+
+.input {
+    width: 100%;
+    border-radius: 10px;
+    border: 0px;
+    padding: 9px;
+    margin-right: 10px;
+    outline: none;
+    color: #8696a0;
+}
+
+button {
+    border: thin;
+    border-radius: 13px;
+    color: #8696a0;
+    width: 40px;
+    margin-right: 20px;
+}
+
+
+.form-container {
+    border-radius: 20px;
+}
+
+.bottom-icons {
+    color: white;
+    margin-right: 11px;
+    display: flex;
+}
+
+.bottom-icons i {
+    margin-right: 10px;
+    align-content: center;
+}
